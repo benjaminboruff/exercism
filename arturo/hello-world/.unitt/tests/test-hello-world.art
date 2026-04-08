@@ -1,0 +1,21 @@
+standalone: [
+
+        ]
+specs: [
+                #[
+                description: "Hello World!"
+                tests: [
+                                #[
+                                description: "hello returns \'Hello, World!\'"
+                                assertions: [
+                                                [
+                                                        {
+                                                                equal? "Hello, World!" "Hello, World!"
+                                                        }
+                                                         true
+                                                ]
+                                        ]
+                                ]
+                        ]
+                ]
+        ]
