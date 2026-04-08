@@ -1,0 +1,91 @@
+standalone: [
+
+        ]
+specs: [
+                #[
+                description: "Leap"
+                tests: [
+                                #[
+                                description: "a year not divisible by 4 is a common year"
+                                assertions: [
+                                                [
+                                                        "false? false"
+                                                         true
+                                                ]
+                                        ]
+                                ]
+                                 #[
+                                description: "a year divisible by 2 and not divisible by 4 is a common year"
+                                assertions: [
+                                                [
+                                                        "false? false"
+                                                         true
+                                                ]
+                                        ]
+                                ]
+                                 #[
+                                description: "a year divisible by 4 and not divisible by 100 is a leap year"
+                                assertions: [
+                                                [
+                                                        "true? true"
+                                                         true
+                                                ]
+                                        ]
+                                ]
+                                 #[
+                                description: "a year divisible by 4 and 5 is still a leap year"
+                                assertions: [
+                                                [
+                                                        "true? true"
+                                                         true
+                                                ]
+                                        ]
+                                ]
+                                 #[
+                                description: "a year divisible by 100 and not divisible by 400 is a common year"
+                                assertions: [
+                                                [
+                                                        "false? false"
+                                                         true
+                                                ]
+                                        ]
+                                ]
+                                 #[
+                                description: "a year divisible by 100 but not divisible by 3 is still not a leap year"
+                                assertions: [
+                                                [
+                                                        "false? false"
+                                                         true
+                                                ]
+                                        ]
+                                ]
+                                 #[
+                                description: "a year divisible by 400 is a leap year"
+                                assertions: [
+                                                [
+                                                        "true? true"
+                                                         true
+                                                ]
+                                        ]
+                                ]
+                                 #[
+                                description: "a year divisible by 400 but not by 125 is still a leap year"
+                                assertions: [
+                                                [
+                                                        "true? true"
+                                                         true
+                                                ]
+                                        ]
+                                ]
+                                 #[
+                                description: "a year divisible by 200 and not divisible by 400 is a common year"
+                                assertions: [
+                                                [
+                                                        "false? false"
+                                                         true
+                                                ]
+                                        ]
+                                ]
+                        ]
+                ]
+        ]
